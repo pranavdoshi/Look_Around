@@ -1,13 +1,1 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center;" class="home-center">
-  <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Enter Zip Code</label>
-          <input type="text" #zipcode = "ngModel" required class="form-control" name="zipcode" [(ngModel)] = "code" aria-describedby="email" placeholder="Enter Zip Code">
-          <!-- <span *ngIf="zipcode.$touched && zipcode.$valid">Zip Code is Valid.</span> -->
-        </div>
-        <button type="button" [disabled] = "validate()"  (click) = "check()" class="btn btn-primary">Go</button>
-
-  </form>
-</div>
 <router-outlet></router-outlet>
